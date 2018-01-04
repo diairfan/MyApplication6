@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frame" />
+
+        <Button
+            android:id="@+id/btn_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Linear" />
+
+        <Button
+            android:id="@+id/btn_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Table" />
+
+        <Button
+            android:id="@+id/btn_rela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Relative" />
+
+        <Button
+            android:id="@+id/btn_gride"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gride" />
+
+        <Button
+            android:id="@+id/btn_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Widget" />
+
+        <Button
+            android:id="@+id/btn_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List" />
+
+        <Button
+            android:id="@+id/btn_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="image" />
+
+        <Button
+            android:id="@+id/btn_card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="cardview" />
+
+        <Button
+            android:id="@+id/btn_rec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler" />
+
+        <Button
+            android:id="@+id/btn_calculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculator" />
+
+        <Button
+            android:id="@+id/btn_fragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment" />
+    </LinearLayout>
+</ScrollView>
+
+
